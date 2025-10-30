@@ -1,0 +1,12 @@
+### List services
+GET http://localhost:8080/admin/services
+
+### Create service
+POST http://localhost:8080/admin/services
+Content-Type: application/json
+
+{
+  "name": "Example",
+  "url": "https://example.com",
+  "interval_seconds": 60
+}

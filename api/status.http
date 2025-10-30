@@ -1,0 +1,5 @@
+### Get overall status
+GET http://localhost:8080/status
+
+### Get healthz
+GET http://localhost:8080/healthz
